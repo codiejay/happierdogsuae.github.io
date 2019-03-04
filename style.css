@@ -229,11 +229,40 @@ footer{
 }
 
 
+.form{
+    width: 100vw;
+    height: 100vh;
+    /* margin:  0 auto; */
+    border: none;
 
+}
+
+.formBox{
+    position: relative;
+}
+
+.cancel{
+    font-size: 60px; 
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    color: #B8273E;
+    right: 5%;
+
+}
 /* For tablets */
 @media (min-width: 760px) and (max-width: 1024px) {
     
 
+    .cancel{
+        font-size: 40px; 
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+        color: #B8273E;
+        right: 5%;
+    
+    }
 .showcase{
     grid-template-columns: repeat(2, 50% 50%);
 }
@@ -385,6 +414,24 @@ footer{
     footer{
         padding: 0em 0.3em; 
         font-size: 1.2em;
+    }
+
+    .form{
+        width: 95vw;
+        height: 100vh;
+        /* margin:  0 auto; */
+        border: none;
+    
+    }
+
+    .cancel{
+        font-size: 30px; 
+        position: absolute;
+        top: 10%;
+        cursor: pointer;
+        color: #B8273E;
+        right: 10%;
+    
     }
 
 }
